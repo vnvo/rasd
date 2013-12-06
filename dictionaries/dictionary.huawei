@@ -1,0 +1,63 @@
+VENDOR          HUAWEI 			2011
+
+BEGIN-VENDOR HUAWEI
+ATTRIBUTE		Input-Peak-Rate			1		integer		HUAWEI
+ATTRIBUTE		Input-Average-Rate		2		integer		HUAWEI
+ATTRIBUTE		Input-Basic-Rate		3		integer		HUAWEI
+ATTRIBUTE		Output-Peak-Rate		4		integer		HUAWEI
+ATTRIBUTE		Output-Average-Rate		5		integer		HUAWEI
+ATTRIBUTE		Output-Basic-Rate		6		integer		HUAWEI
+ATTRIBUTE		In_Kb_Before_T_Switch	7		integer		HUAWEI
+ATTRIBUTE		Out_Kb_Before_T_Switch	8		integer		HUAWEI
+ATTRIBUTE		In_Pkt_Before_T_Switch	9		integer		HUAWEI
+ATTRIBUTE		Out_Pkt_Before_T_Switch	10		integer		HUAWEI
+ATTRIBUTE		In_Kb_After_T_Switch	11		integer		HUAWEI
+ATTRIBUTE		Out_Kb_After_T_Switch	12		integer		HUAWEI
+ATTRIBUTE		In_Pkt_After_T_Switch	13		integer		HUAWEI
+ATTRIBUTE		Out_Pkt_After_T_Switch	14		integer		HUAWEI
+ATTRIBUTE		Remanent_Volume			15		integer		HUAWEI
+ATTRIBUTE		Tariff_Switch_Interval	16		integer		HUAWEI
+ATTRIBUTE		ISP-ID					17		string		HUAWEI
+ATTRIBUTE		Max-Users-Per-Logic-Port 19		integer		HUAWEI
+ATTRIBUTE		Command					20		integer		HUAWEI
+ATTRIBUTE		Priority				22		integer		HUAWEI
+ATTRIBUTE		Control_Identifier		24		integer		HUAWEI
+ATTRIBUTE		Result_Code				25		integer		HUAWEI
+ATTRIBUTE		Connect_ID				26		integer		HUAWEI
+ATTRIBUTE		PortalURL				27		string		HUAWEI
+ATTRIBUTE		Ftp-Directory			28		string		HUAWEI
+ATTRIBUTE		Exec-Privilege			29		integer		HUAWEI
+ATTRIBUTE		Group-IP-address		30		integer		HUAWEI
+ATTRIBUTE		Group-IP-Mask			31		integer		HUAWEI
+ATTRIBUTE		Acct-Destnation-IP-Addr	39		string		HUAWEI
+ATTRIBUTE		Acct-Destnation-Volume	40		string		HUAWEI
+ATTRIBUTE		NAS-Startup-Timestamp	59		integer		HUAWEI
+ATTRIBUTE		Ip-Host-Addr			60		string		HUAWEI
+ATTRIBUTE		Multicast_Source_Group	97		string		HUAWEI
+ATTRIBUTE		Multicast_Recieve_Group	98		integer		HUAWEI
+ATTRIBUTE		User_Multicast_Type		99		integer		HUAWEI
+ATTRIBUTE		HW_Service_Chg_Cmd		105		integer		HUAWEI
+ATTRIBUTE		HW_Acct_Packet_Type		106		integer		HUAWEI
+ATTRIBUTE		HW_Call_Reference		107		integer		HUAWEI
+ATTRIBUTE		HW_PSTN_Port			108		integer		HUAWEI
+ATTRIBUTE		HW_Voip_Service_Type	109		integer		HUAWEI
+ATTRIBUTE		HW_Acct_Connection_Time	110		integer		HUAWEI
+ATTRIBUTE		HW_Error_Reason			112		integer		HUAWEI
+ATTRIBUTE		HW_Remain_Monney		113		integer		HUAWEI
+ATTRIBUTE		HW_Org_GK_address		123		ipaddr		HUAWEI
+ATTRIBUTE		HW_Org_GW_address		124		ipaddr		HUAWEI
+ATTRIBUTE		HW_Dst_GK_address		125		ipaddr		HUAWEI
+ATTRIBUTE		HW_Dst_GW_address		126		ipaddr		HUAWEI
+ATTRIBUTE		HW_Access_Num			127		string		HUAWEI
+ATTRIBUTE		HW_Remain_Time			128		integer		HUAWEI
+ATTRIBUTE		HW_Codec_Type			131		integer		HUAWEI
+ATTRIBUTE		HW_Transfer_Num			132		string		HUAWEI
+ATTRIBUTE		HW_New_User_Name		133		string		HUAWEI
+ATTRIBUTE		HW_Transfer_Station_Id	134		string		HUAWEI
+ATTRIBUTE		Client-Primary-DNS		135		ipaddr		HUAWEI
+ATTRIBUTE		Client-Secondary-DNS	136		ipaddr		HUAWEI
+ATTRIBUTE		HW_ONLY_Account_Type	137		integer		HUAWEI
+ATTRIBUTE		Version					254		string		HUAWEI
+ATTRIBUTE		Product-ID				255		string		HUAWEI
+
+END-VENDOR HUAWEI
